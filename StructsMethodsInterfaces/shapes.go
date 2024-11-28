@@ -1,14 +1,24 @@
 package StructMethodsInterface
 
-type Rectangle struct{
+import "math"
+
+type Rectangle struct {
 	breadth float64
-	length float64
+	length  float64
 }
 
-func Perimeter(rect Rectangle) float64{
-	return 2*(rect.breadth + rect.length)
+type Circle struct {
+	Radius float64
 }
 
-func Area(rect Rectangle)float64{
-	return rect.breadth * rect.length
+func Perimeter(rect Rectangle) float64 {
+	return 2 * (rect.breadth + rect.length)
+}
+
+func (r Rectangle) Area() float64 {
+	return r.breadth * r.length
+}
+
+func (c Circle) Area() float64 {
+	return math.Pi * c.Radius * c.Radius
 }
