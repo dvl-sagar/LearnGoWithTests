@@ -1,9 +1,14 @@
 package StructMethodsInterface
 
-func Perimeter(breadth float64, length float64) float64{
-	return 2*(breadth + length)
+type Rectangle struct{
+	breadth float64
+	length float64
 }
 
-func Area(breadth, length float64)float64{
-	return breadth * length
+func Perimeter(rect Rectangle) float64{
+	return 2*(rect.breadth + rect.length)
+}
+
+func Area(rect Rectangle)float64{
+	return rect.breadth * rect.length
 }
