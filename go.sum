@@ -1,2 +1,6 @@
+github.com/approvals/go-approval-tests v0.0.0-20211008131110-0c40b30e0000 h1:H152l3O+2XIXQu8IrqEXeqJOFCvSShUXs7+x0lw8V1k=
+github.com/approvals/go-approval-tests v0.0.0-20211008131110-0c40b30e0000/go.mod h1:PJOqSY8IofNv3heAD6k8E7EfFS6okiSS9bSAasaAUME=
+github.com/gomarkdown/markdown v0.0.0-20240626202925-2eda941fd024 h1:saBP362Qm7zDdDXqv61kI4rzhmLFq3Z1gx34xpl6cWE=
+github.com/gomarkdown/markdown v0.0.0-20240626202925-2eda941fd024/go.mod h1:JDGcbDT52eL4fju3sZ4TeHGsQwhG9nbDV21aMyhwPoA=
 github.com/quii/learn-go-with-tests v0.0.0-20241122141118-44f983b2eed5 h1:AgunaGGpL8s17mvmMlJkieQgIti/pmQnZjflUe/JBq4=
 github.com/quii/learn-go-with-tests v0.0.0-20241122141118-44f983b2eed5/go.mod h1:8df/bWf98yqHWMZ0tDvCTKVLSlINImOYk//zmCjrM4E=
